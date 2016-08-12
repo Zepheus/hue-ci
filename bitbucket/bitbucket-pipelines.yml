@@ -1,0 +1,7 @@
+image: microsoft/dotnet:onbuild
+
+pipelines:
+  default:
+    - step:
+        script:
+          - bash "./bootstrap.sh"
